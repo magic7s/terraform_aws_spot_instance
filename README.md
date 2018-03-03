@@ -1,0 +1,1 @@
+# terraform_aws_spot_instance
