@@ -81,7 +81,7 @@ resource "aws_security_group_rule" "allow_all_egress" {
   to_port         = 0
   protocol        = "all"
   cidr_blocks     = ["0.0.0.0/0"]
-  description     = "Outboud access to ANY"
+  description     = "Outbound access to ANY"
 
   security_group_id = "${aws_security_group.k8s_sg.id}"
 }
